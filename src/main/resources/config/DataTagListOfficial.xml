@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlList elements="co.luism.datacollector.enterprise.DataTag">
+    <DataTag>
+        <tagId>1</tagId>
+        <process>3</process>
+        <name>Battery Level</name>
+        <type>TAG_DATA_TYPE_PD</type>
+        <engUnits></engUnits>
+        <valueType>PercentageValue</valueType>
+        <incrementDeadBand>1</incrementDeadBand>
+        <decrementDeadBand>1</decrementDeadBand>
+        <enabled>true</enabled>
+    </DataTag>
+    <DataTag>
+        <tagId>2</tagId>
+        <process>2</process>
+        <name>Speed</name>
+        <type>TAG_DATA_TYPE_PD</type>
+        <engUnits>Km/h</engUnits>
+        <valueType>UnsignedInteger</valueType>
+        <incrementDeadBand>1</incrementDeadBand>
+        <decrementDeadBand>1</decrementDeadBand>
+        <enabled>true</enabled>
+    </DataTag>
+    <DataTag>
+        <tagId>3</tagId>
+        <process>3</process>
+        <name>Battery Alarm</name>
+        <type>TAG_DATA_TYPE_EVENT</type>
+        <engUnits></engUnits>
+        <valueType>Boolean</valueType>
+        <incrementDeadBand>1</incrementDeadBand>
+        <decrementDeadBand>1</decrementDeadBand>
+        <enabled>true</enabled>
+    </DataTag>
+    <DataTag>
+        <tagId>4</tagId>
+        <process>2</process>
+        <name>Speed Alarm</name>
+        <type>TAG_DATA_TYPE_EVENT</type>
+        <engUnits>Km/h</engUnits>
+        <valueType>Boolean</valueType>
+        <incrementDeadBand>1</incrementDeadBand>
+        <decrementDeadBand>1</decrementDeadBand>
+        <enabled>true</enabled>
+    </DataTag>
+</XmlList>

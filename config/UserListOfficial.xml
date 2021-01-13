@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlList elements="co.luism.datacollector.enterprise.User">
+    <User>
+        <login>admin</login>
+        <password>admin123</password>
+        <email>admin@rts.com</email>
+        <organizationId>1</organizationId>
+    </User>
+</XmlList>

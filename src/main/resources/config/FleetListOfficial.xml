@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XmlList elements="co.luism.datacollector.enterprise.Fleet">
+    <Fleet>
+        <fleetId>1</fleetId>
+        <name>HARSCO-LINE_OVER_THE_RIVER</name>
+        <enabled>true</enabled>
+    </Fleet>
+    <Fleet>
+        <fleetId>2</fleetId>
+        <name>HARSCO-LINE_UNDER_THE_RIVER</name>
+        <enabled>true</enabled>
+    </Fleet>
+    <Fleet>
+        <fleetId>3</fleetId>
+        <name>SBB-LINE_OVER_THE_RIVER</name>
+        <enabled>true</enabled>
+    </Fleet>
+    <Fleet>
+        <fleetId>4</fleetId>
+        <name>SBB-LINE_UNDER_THE_RIVER</name>
+        <enabled>true</enabled>
+    </Fleet>
+    <Fleet>
+        <fleetId>5</fleetId>
+        <name>EKE-LINE_OVER_THE_RIVER</name>
+        <enabled>true</enabled>
+    </Fleet>
+</XmlList>
