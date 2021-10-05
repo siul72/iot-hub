@@ -6,10 +6,13 @@
 	<session-factory>
 		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.username">iotuser</property>
-		<property name="hibernate.connection.password">iotuser123</property>
-
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/iothub</property>
+         <property name="hibernate.connection.username">lukiiot_db_user</property>
+        <property name="hibernate.connection.password">a~K83dc^5nyX[}</property>
+<!--        <property name="hibernate.connection.username">lukiiot_db_admin</property>-->
+<!--        <property name="hibernate.connection.password">a~K83dc^5nyX[}</property>-->
+<!--        <property name="hibernate.connection.username">root</property>-->
+<!--        <property name="hibernate.connection.password">root</property>-->
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/lukiiot</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="show_sql">false</property>
 
@@ -22,29 +25,28 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
         <property name="current_session_context_class">thread</property>
-        <mapping class="co.luism.diagnostics.enterprise.Organization" />
-        <mapping class="co.luism.diagnostics.enterprise.Configuration"/>
-        <mapping class="co.luism.diagnostics.enterprise.Fleet"/>
-		<mapping class="co.luism.diagnostics.enterprise.Vehicle"/>
-        <mapping class="co.luism.diagnostics.enterprise.DataTag"/>
-        <mapping class="co.luism.diagnostics.enterprise.User" />
-        <mapping class="co.luism.diagnostics.enterprise.Role" />
-        <mapping class="co.luism.diagnostics.enterprise.Permission" />
-        <mapping class="co.luism.diagnostics.enterprise.Language" />
-        <mapping class="co.luism.diagnostics.enterprise.Translation" />
-        <mapping class="co.luism.diagnostics.enterprise.TagValue" />
-        <mapping class="co.luism.diagnostics.enterprise.SnapShotAlarmTagValue" />
-        <mapping class="co.luism.diagnostics.enterprise.HistoryAlarmTagValue" />
-        <mapping class="co.luism.diagnostics.enterprise.AlarmValueHistoryInfo" />
-        <mapping class="co.luism.diagnostics.enterprise.AlarmEnvironmentData"  />
-        <mapping class="co.luism.diagnostics.enterprise.AlarmBuffer" />
-        <mapping class="co.luism.diagnostics.enterprise.AlarmCategory" />
-        <mapping class="co.luism.diagnostics.enterprise.CategorySignalMap" />
-        <mapping class="co.luism.diagnostics.enterprise.AlarmTagDescription" />
-        <mapping class="co.luism.diagnostics.enterprise.DataScanCollector" />
-        <mapping class="co.luism.diagnostics.enterprise.SnapShotGenericValue" />
-        <mapping class="co.luism.diagnostics.enterprise.VehicleFavourite" />
-        <mapping class="co.luism.diagnostics.enterprise.HistoryGenericValue" />
-
+        <mapping class="co.luism.lukisoftiot.enterprise.Organization" />
+        <mapping class="co.luism.lukisoftiot.enterprise.Configuration"/>
+        <mapping class="co.luism.lukisoftiot.enterprise.Fleet"/>
+		<mapping class="co.luism.lukisoftiot.enterprise.Vehicle"/>
+        <mapping class="co.luism.lukisoftiot.enterprise.DataTag"/>
+        <mapping class="co.luism.lukisoftiot.enterprise.User" />
+        <mapping class="co.luism.lukisoftiot.enterprise.Role" />
+        <mapping class="co.luism.lukisoftiot.enterprise.Permission" />
+        <mapping class="co.luism.lukisoftiot.enterprise.Language" />
+        <mapping class="co.luism.lukisoftiot.enterprise.Translation" />
+        <mapping class="co.luism.lukisoftiot.enterprise.TagValue" />
+        <mapping class="co.luism.lukisoftiot.enterprise.SnapShotAlarmTagValue" />
+        <mapping class="co.luism.lukisoftiot.enterprise.HistoryAlarmTagValue" />
+        <mapping class="co.luism.lukisoftiot.enterprise.AlarmValueHistoryInfo" />
+        <mapping class="co.luism.lukisoftiot.enterprise.AlarmEnvironmentData"  />
+        <mapping class="co.luism.lukisoftiot.enterprise.AlarmBuffer" />
+        <mapping class="co.luism.lukisoftiot.enterprise.AlarmCategory" />
+        <mapping class="co.luism.lukisoftiot.enterprise.CategorySignalMap" />
+        <mapping class="co.luism.lukisoftiot.enterprise.AlarmTagDescription" />
+        <mapping class="co.luism.lukisoftiot.enterprise.DataScanCollector" />
+        <mapping class="co.luism.lukisoftiot.enterprise.SnapShotGenericValue" />
+        <mapping class="co.luism.lukisoftiot.enterprise.VehicleFavourite" />
+        <mapping class="co.luism.lukisoftiot.enterprise.HistoryGenericValue" />
 	</session-factory>
 </hibernate-configuration>

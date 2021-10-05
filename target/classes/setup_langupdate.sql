@@ -5,7 +5,7 @@ where
   REFERENCED_TABLE_NAME = '<table>';
 
 
-INSERT INTO  Organization (organizationId, name, email) VALUES (1, 'RTS', 'admin@rts.com');
+INSERT INTO  Organization (organizationId, name, email) VALUES (1, 'LUKIIOT', 'admin@luism.co');
 INSERT INTO  Role (name) VALUES ('administrator');
 INSERT INTO  Role (name) VALUES ('user');
 INSERT INTO  Permission (name, object, permission , roleId) VALUES ('grant_admin_all', 'all', 'all', 1);
@@ -19,8 +19,9 @@ insert into `Language` (languageId, name, flag) values (2, 'de', 'flags/DE.png')
 insert into `Language` (languageId, name, flag) values (3, 'fr', 'flags/FR.png');
 insert into `Language` (languageId, name, flag) values (4, 'it', 'flags/IT.png');
 
+INSERT INTO Configuration (version, projectCode, hardware, organizationId) values ('0.0.1', "LKIT" , "CB5", 1);
+INSERT INTO Fleet (fleetId, name, configurationId, icon, mapPointer) values (1, "F1" , 1, "icons/default", "icons/map_default");
 
-INSERT INTO Fleet (fleetId, name, organizationId) values (1, "F1" , 1);
 INSERT INTO Vehicle (vehicleId, vehicleType, vehicleNumber,
                      smsNumber, protocolVersion, timeZone,
                      countryCode, daylightSavingTime, enabled, fleetId)

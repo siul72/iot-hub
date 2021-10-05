@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="21030c2a-a9da-4ab7-a1e1-601a0e65d6d8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -13,11 +16,20 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="workOffline" value="true" />
-      </MavenGeneralSettings>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="false" />
+      </map>
     </option>
   </component>
   <component name="MavenRunner">
@@ -29,13 +41,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cube-system-adapter" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/co/luism" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
-  <component name="RunManager" selected="Application.run_create_db">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="co.luism.lukisoftiot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunAll">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -50,18 +68,104 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run_app" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="co.luism.diagnostics.webmanager.WebManagerCore" />
+    <configuration name="run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.LukiSoftIotMain" />
       <module name="ksoft-iot-hub" />
-      <option name="PROGRAM_PARAMETERS" value="-r" />
+      <option name="PROGRAM_PARAMETERS" value="run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="run_create_db" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="co.luism.diagnostics.webmanager.WebManagerCore" />
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.LukiSoftIotMain" />
       <module name="ksoft-iot-hub" />
-      <option name="PROGRAM_PARAMETERS" value="-c 1qay2wsX+" />
+      <option name="PROGRAM_PARAMETERS" value="db-create -u lukiiot_db_admin -p `a~K83dc^5ny&quot;X[}" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="show_help" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.LukiSoftIotMain" />
+      <module name="ksoft-iot-hub" />
+      <option name="PROGRAM_PARAMETERS" value="-h" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="show_version" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.LukiSoftIotMain" />
+      <module name="ksoft-iot-hub" />
+      <option name="PROGRAM_PARAMETERS" value="version" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_db" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.LukiSoftIotMain" />
+      <module name="ksoft-iot-hub" />
+      <option name="PROGRAM_PARAMETERS" value="db-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunAll" type="JUnit" factoryName="JUnit">
+      <module name="ksoft-iot-hub" />
+      <option name="PACKAGE_NAME" value="co.luism.lukisoftiot.datacollector.tests" />
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.datacollector.tests.TestMainSuite" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainSuite.test007Translate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ksoft-iot-hub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.luism.lukisoftiot.datacollector.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.luism.lukisoftiot.datacollector.tests" />
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.datacollector.tests.TestMainSuite" />
+      <option name="METHOD_NAME" value="test007Translate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainSuite.test014ConnectWithoutLifeSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ksoft-iot-hub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.luism.lukisoftiot.datacollector.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.luism.lukisoftiot.datacollector.tests" />
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.datacollector.tests.TestMainSuite" />
+      <option name="METHOD_NAME" value="test014ConnectWithoutLifeSign" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainSuite.test026SetFavourite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ksoft-iot-hub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.luism.lukisoftiot.datacollector.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.luism.lukisoftiot.datacollector.tests" />
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.datacollector.tests.TestMainSuite" />
+      <option name="METHOD_NAME" value="test026SetFavourite" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,8 +180,8 @@
     <configuration name="test019SendGetEnvData" type="JUnit" factoryName="JUnit">
       <module name="ksoft-iot-hub" />
       <useClassPathOnly />
-      <option name="PACKAGE_NAME" value="co.luism.datacollector.tests" />
-      <option name="MAIN_CLASS_NAME" value="co.luism.datacollector.tests.TestMainSuite" />
+      <option name="PACKAGE_NAME" value="co.luism.lukisoftiot.datacollector.tests" />
+      <option name="MAIN_CLASS_NAME" value="co.luism.lukisoftiot.datacollector.tests.TestMainSuite" />
       <option name="METHOD_NAME" value="test019SendGetEnvData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
@@ -105,11 +209,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.run_app" />
       <item itemvalue="Application.run_create_db" />
+      <item itemvalue="Application.run" />
+      <item itemvalue="Application.test_db" />
+      <item itemvalue="Application.show_version" />
+      <item itemvalue="Application.show_help" />
+      <item itemvalue="JUnit.RunAll" />
       <item itemvalue="JUnit.test019SendGetEnvData" />
+      <item itemvalue="JUnit.TestMainSuite.test007Translate" />
+      <item itemvalue="JUnit.TestMainSuite.test014ConnectWithoutLifeSign" />
+      <item itemvalue="JUnit.TestMainSuite.test026SetFavourite" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMainSuite.test026SetFavourite" />
+        <item itemvalue="JUnit.TestMainSuite.test014ConnectWithoutLifeSign" />
+        <item itemvalue="JUnit.TestMainSuite.test007Translate" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
@@ -132,110 +251,13 @@
       <collection />
     </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="168" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600974686579">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="112" y="32" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1592684183977" />
-    <state x="168" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600974686579" />
-    <state x="385" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592684111906">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="385" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1592684111906" />
-    <state x="816" y="263" key="FileChooserDialogImpl" timestamp="1601218223646">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="326" y="73" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1592683569067" />
-    <state x="816" y="263" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601218223646" />
-    <state x="2244" y="264" key="FileChooserDialogImpl/0.0.5280.1083@0.0.5280.1083" timestamp="1593012546799" />
-    <state x="428" y="124" key="FileChooserDialogImpl/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592602352031" />
-    <state width="1878" height="333" key="GridCell.Tab.0.bottom" timestamp="1601016285129">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592742595820" />
-    <state width="1878" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285129" />
-    <state width="1238" height="158" key="GridCell.Tab.0.bottom/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592605214915" />
-    <state width="1878" height="333" key="GridCell.Tab.0.center" timestamp="1601016285124">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592742595801" />
-    <state width="1878" height="333" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285124" />
-    <state width="1238" height="158" key="GridCell.Tab.0.center/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592605214915" />
-    <state width="1878" height="333" key="GridCell.Tab.0.left" timestamp="1601016285121">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592742595792" />
-    <state width="1878" height="333" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285121" />
-    <state width="1238" height="158" key="GridCell.Tab.0.left/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592605214914" />
-    <state width="1878" height="333" key="GridCell.Tab.0.right" timestamp="1601016285126">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592742595811" />
-    <state width="1878" height="333" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285126" />
-    <state width="1238" height="158" key="GridCell.Tab.0.right/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592605214915" />
-    <state width="1878" height="333" key="GridCell.Tab.1.bottom" timestamp="1601016285140">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592742595856" />
-    <state width="1878" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285140" />
-    <state width="1878" height="333" key="GridCell.Tab.1.center" timestamp="1601016285135">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1592742595839" />
-    <state width="1878" height="333" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285135" />
-    <state width="1878" height="333" key="GridCell.Tab.1.left" timestamp="1601016285131">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1592742595829" />
-    <state width="1878" height="333" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285131" />
-    <state width="1878" height="333" key="GridCell.Tab.1.right" timestamp="1601016285137">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1230" height="197" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1592742595848" />
-    <state width="1878" height="333" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601016285137" />
-    <state x="178" y="31" key="Maven.ArtifactSearchDialog" timestamp="1592601169403">
-      <screen x="0" y="18" width="1680" height="1050" />
-    </state>
-    <state x="178" y="31" key="Maven.ArtifactSearchDialog/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592601169403" />
-    <state x="259" y="44" width="592" height="560" key="find.popup" timestamp="1592685549898">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="259" y="44" width="592" height="560" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1592685549898" />
-    <state x="340" y="82" width="614" height="560" key="find.popup/0.18.1680.1050/1680.33.1680.1050/3360.0.1280.720@0.18.1680.1050" timestamp="1592602039978" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/luism/diagnostics/webmanager/WebManager.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/luism/diagnostics/common/DiagnosticsPersistent.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/luism/diagnostics/enterprise/utils/HibernateUtil.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/luism/diagnostics/webmanager/LanguageManager.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/luism/diagnostics/common/Utils.java</url>
-          <line>517</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web_app_utils$TestMainSuite_test014ConnectWithoutLifeSign.ic" NAME="TestMainSuite.test014ConnectWithoutLifeSign Coverage Results" MODIFIED="1633467606668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.luism.lukisoftiot.datacollector.tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

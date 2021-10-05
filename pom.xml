@@ -7,7 +7,7 @@
       <version>0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>co.luism.ksoft</groupId>
+  <groupId>co.luism</groupId>
   <artifactId>iot-hub</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -67,7 +67,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>co.luism.diagnostics.webmanager.DataCollectorCore</mainClass>
+                            <mainClass>co.luism.lukisoftiot.webapputils.DataCollectorCore</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -198,5 +198,28 @@
          <version>2.4</version>
      </dependency>
 
- </dependencies>
+      <!-- https://mvnrepository.com/artifact/info.picocli/picocli -->
+      <dependency>
+          <groupId>info.picocli</groupId>
+          <artifactId>picocli</artifactId>
+          <version>4.6.1</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/me.jaksa/named-parameters -->
+      <dependency>
+          <groupId>me.jaksa</groupId>
+          <artifactId>named-parameters</artifactId>
+          <version>0.2</version>
+      </dependency>
+
+
+      <dependency>
+          <groupId>org.jetbrains</groupId>
+          <artifactId>annotations</artifactId>
+          <version>RELEASE</version>
+          <scope>compile</scope>
+      </dependency>
+
+
+  </dependencies>
 </project>

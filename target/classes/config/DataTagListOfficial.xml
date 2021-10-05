@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<XmlList elements="co.luism.datacollector.enterprise.DataTag">
+<XmlList elements="co.luism.lukisoftiot.datacollector.enterprise.DataTag">
     <DataTag>
         <tagId>1</tagId>
         <process>3</process>

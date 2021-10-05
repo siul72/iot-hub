@@ -40,5 +40,8 @@
     <orderEntry type="library" name="Maven: org.ini4j:ini4j:0.3.3" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.2" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: info.picocli:picocli:4.6.1" level="project" />
+    <orderEntry type="library" name="Maven: me.jaksa:named-parameters:0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:22.0.0" level="project" />
   </component>
 </module>

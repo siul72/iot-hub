@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<XmlList elements="co.luism.datacollector.enterprise.Fleet">
+<XmlList elements="co.luism.lukisoftiot.datacollector.enterprise.Fleet">
     <Fleet>
         <fleetId>1</fleetId>
         <organizationId>2</organizationId>

@@ -1,11 +1,12 @@
-create database ondiagnose;
-CREATE USER 'railtecuser'@'localhost' IDENTIFIED BY 'rail123';
-GRANT ALL PRIVILEGES ON ondiagnose.* TO 'railtecuser'@'localhost' WITH GRANT OPTION;
-CREATE USER 'ondiagweb'@'localhost' IDENTIFIED BY '1qay2wsX+';
-grant usage on ondiagnose.* to ondiagweb@localhost identified by '1qay2wsX+';
-grant all privileges on ondiagnose.* to ondiagweb@localhost;
+create database lukiiot;
+CREATE USER 'lukiiot_db_admin'@'localhost' IDENTIFIED BY '`a~K83dc^5nyX[}';
+GRANT ALL PRIVILEGES ON lukiiot.* TO 'lukiiot_db_admin'@'localhost' WITH GRANT OPTION;
 
-use ondiagnose;
+CREATE USER 'lukiiot_db_user'@'localhost' IDENTIFIED BY 'a~K83dc^5nyX[}';
+grant usage on lukiiot.* to 'lukiiot_db_user'@'localhost' identified by 'a~K83dc^5nyX[}';
+grant all privileges on lukiiot.* to 'lukiiot_db_user'@'localhost';
+
+use lukiiot;
 
 DROP TABLE IF EXISTS Vehicle;
 DROP TABLE IF EXISTS Fleet;
